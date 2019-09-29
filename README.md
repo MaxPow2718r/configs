@@ -140,12 +140,11 @@ Those are not complete.
 	>
 	> \.oo infinity symbol.
 	>
-	> \./ fraction.[^1]
+	> \./ fraction. This one allows you to type the numerator in curly brackets then just press \./ and generate the fraction command.
 	>
 	> \.\< angles.
 
 
-[^1]: This one allows you to type the numerator in curly brackets then just press \./ and generate the fraction command.
 
 * Python shortcuts.
 

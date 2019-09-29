@@ -140,7 +140,7 @@ Those are not complete.
 	>
 	> \.oo infinity symbol.
 	>
-	> \./ fraction[¹].
+	> \./ fraction[^1].
 	>
 	> \.< angles.
 
@@ -155,4 +155,4 @@ Those are not complete.
 - [ ] make a real to do list.
 
 
-[¹]: this one allows you to type the numerator in curly brackets then just press ./ and generate the fraction command.
+[^1]: this one allows you to type the numerator in curly brackets then just press ./ and generate the fraction command.

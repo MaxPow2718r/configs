@@ -26,7 +26,7 @@ You can install those with any plugin manager, I personally use [vim-plug](https
 
 I set up some basic configurations on my vimrc, those are:
 
-* Have mapped the leader key to comma (,).
+* Have mapped the leader key to comma \(,\).
 * Set nocompatible.
 * Enable syntax highlighting.
 * Set local language to Spanish.
@@ -58,13 +58,13 @@ I set up some basic configurations on my vimrc, those are:
 	>
 	> Ctrl-l moves to the right window.
 
-* Text marks (<++> <()>), used to remember positions or quick escape from a environment (mostly on LaTeX).
+* Text marks \(<\+\+> <\(\)>\), used to remember positions or quick escape from a environment \(mostly on LaTeX\).
 
-	> Space-Space moves to the next <++>.
+	> Space-Space moves to the next <\+\+>.
 	>
-	> The <()> symbol is used for the snippets.
+	> The <\(\)> symbol is used for the snippets.
 
-* Git shortcuts (completion pending).
+* Git shortcuts \(completion pending\).
 
 	> F6 opens a split below and shows the git status.
 	>

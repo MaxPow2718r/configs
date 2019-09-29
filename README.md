@@ -1,18 +1,18 @@
 # Configs
 
-These are my configuration files, for now I only have three documents and only my vimrc is important, the two others have only one change.
+These are my configuration files, for now I only have three documents and only my vimrc is important, the two others have only one change. There are also my LaTeX templates.
 
 ## bashrc
 
-This is a typically bashrc file, the only different is that I activate Vi mode on bash.
+This is a typical bashrc file, the only difference is that I activate Vi mode on bash.
 
 ## gitconfig
 
-My gitconfig for the moment only setup VIM as my main text editor.
+In my gitconfig for the moment only setup VIM as my main text editor.
 
 ## vimrc
 
-This are all the VIM snippets and plugins that I use on VIM.
+This are all the VIM snippets and plugins that I use.
 
 ### Plugins
 
@@ -26,7 +26,7 @@ You can install those with any plugin manager, I personally use [vim-plug](https
 
 I set up some basic configurations on my vimrc, those are:
 
-* Have mapped the leader key to comma \(,\).
+* Mapped the leader key to comma \(,\).
 * Set nocompatible.
 * Enable syntax highlighting.
 * Set local language to Spanish.
@@ -35,7 +35,7 @@ I set up some basic configurations on my vimrc, those are:
 * The splits are: horizontal to the bottom and vertical to the right.
 * Enable autocomplete.
 * Disable autocomment.
-* Deletes all trailing withe spaces on save.
+* Delete all trailing white spaces on save.
 * Puts you in the middle of a pair of brackets when both are typed sequentially.
 
 ### Snippets and keyboard shortcuts.
@@ -44,23 +44,23 @@ I set up some basic configurations on my vimrc, those are:
 
 	> F2 Enable spell check, since is in Spanish, but I not always typing on Spanish.
 	>
-	> Ctrl-l search backward for an spelling mistake and replace it with the first item on the dictionary.
+	> Ctrl\-l search backward for a spelling mistake and replaces it with the first item on the dictionary.
 	>
-	> Ctrl-g undo the previous replacement.
+	> Ctrl\-g undo the previous replacement.
 
 * Window movement on splits.
 
-	> Ctrl-h moves to the left window.
+	> Ctrl\-h moves to the left window.
 	>
-	> Ctrl-j moves to the bottom window.
+	> Ctrl\-j moves to the bottom window.
 	>
-	> Ctrl-k moves to the top window.
+	> Ctrl\-k moves to the top window.
 	>
-	> Ctrl-l moves to the right window.
+	> Ctrl\-l moves to the right window.
 
 * Text marks \(<\+\+> <\(\)>\), used to remember positions or quick escape from a environment \(mostly on LaTeX\).
 
-	> Space-Space moves to the next <\+\+>.
+	> Space\-Space moves to the next <\+\+>.
 	>
 	> The <\(\)> symbol is used for the snippets.
 
@@ -76,35 +76,35 @@ I set up some basic configurations on my vimrc, those are:
 
 	> F4 in any mode saves the file.
 	>
-	> <Leader>i on a new file copy a IEEE template.
+	> Leader\-i on a new file copy a IEEE template.
 	>
-	> <Leader>r on a new file copy a report template.
+	> Leader\-r on a new file copy a report template.
 	>
-	> <Leader>n on a new file copy a notes template.
+	> Leader\-n on a new file copy a notes template.
 	>
-	> <Leader>s add a package and a command to import SVG images.
+	> Leader\-s add a package and a command to import SVG images.
 	>
-	> <Leader>g add a graphic package.
+	> Leader\-g add a graphic package.
 	>
-	> <Leader>c add the [circuitikz](https://github.com/circuitikz/circuitikz) package.
+	> Leader\-c add the [circuitikz](https://github.com/circuitikz/circuitikz) package.
 
 Those are not complete.
 
 * LaTeX text snippets.
 
-	> "" puts you in a quotation enviroment.
+	> "" puts you in a quote environment.
 	>
-	> $$ puts you in a in line math enviromen.
+	> $$ puts you in a in line math environmen.
 	>
-	> ;b open a bold enviroment.
+	> ;b open a bold environment.
 	>
-	> ;i open a italic envirement.
+	> ;i open a italic envirenment.
 	>
 	> ;u underline.
 	>
 	> ;red color red.
 	>
-	> ;B begin/end enviroment.
+	> ;B begin/end environment.
 	>
 	> ;e equation enviroment.
 	>

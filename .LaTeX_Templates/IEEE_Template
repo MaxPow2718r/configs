@@ -1,0 +1,38 @@
+\documentclass[journal]{IEEEtran}
+
+%encodec type
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{cite}
+
+%packages for links in the document
+\usepackage[pdftex,colorlinks=true, urlcolor=blue, linkcolor = black, citecolor=black]{hyperref}
+
+%math fonts
+\usepackage{amsmath, amsfonts, amssymb}
+
+%to make bibtex works on IEEE format i hope
+\makeatletter
+\def\endthebibliography{%
+	\def\@noitemerr{\@latex@warning{Empty 'thebibliography' enviroment}}%
+	endlist
+}
+\makeatother
+%more packages <|++|>
+
+\title{<++>}
+\author{<++>}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+<++>
+\end{abstract}
+
+\begin{IEEEkeywords}
+<++>
+\end{IEEEkeywords}
+\section{Introducción}
+\IEEEPARstart{<++>}<++>
+
+\end{document}

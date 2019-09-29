@@ -1,0 +1,24 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{cite}
+
+%url package
+\usepackage[pdftex,colorlinks=true, urlcolor=blue, linkcolor = black, citecolor=black]{hyperref}
+
+%math fonts
+\usepackage{amsmath, amsfonts, amssymb}
+
+%more packages <|++|>
+
+%page format
+\usepackage[margin = 2cm, left = 2cm, includefoot]{geometry}
+
+\begin{document}
+\hfill \today
+
+<++>
+
+\end{document}
+

@@ -40,11 +40,40 @@ I set up some basic configurations on my vimrc, those are:
 
 ### Snippets and keyboard shortcuts.
 
-* Spellcheck
+* Spellcheck.
 
 	> F2 Enable spell check, since is in Spanish, but I not always typing on Spanish.
+
 	> Ctrl-l search backward for an spelling mistake and replace it with the first item on the dictionary.
+
 	> Ctrl-g undo the previous replacement.
 
+* Window movement on splits.
 
+	> Ctrl-h moves to the left window.
 
+	> Ctrl-j moves to the bottom window.
+
+	> Ctrl-k moves to the top window.
+
+	> Ctrl-l moves to the right window.
+
+* Text marks (<++> <()>), used to remember positions or quick escape from a environment (mostly on LaTeX).
+
+	> Space-Space moves to the next <++>.
+
+	> The <()> symbol is used for the snippets.
+
+* Git shortcuts (completion pending).
+
+	> F6 opens a split below and shows the git status.
+
+	> F7 git add the current file.
+
+	> F8 git commit.
+
+* LaTeX snippets.
+
+	> F4 in any mode saves the file.
+
+	>

@@ -140,7 +140,7 @@ Those are not complete.
 	>
 	> \.oo infinity symbol.
 	>
-	> \./ fraction.[¹]
+	> \./ fraction.
 	>
 	> \.< angles.
 
@@ -152,6 +152,7 @@ Those are not complete.
 
 # To do list.
 
+fraction.[¹]
 - [ ] make a real to do list.
 
 

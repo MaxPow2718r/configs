@@ -51,9 +51,6 @@ map <C-l> <C-w>l
 "automatically deletes all whitespace on save"
 autocmd BufWritePre * %s/\s\+$//e
 
-"opens nerdtree to the command"
-map <F1> :NERDTreeToggle<CR>
-
 "search for <++>"
 inoremap <Space><Space> <ESC>/<++><CR>"_c4l
 nnoremap <Space><Space> <ESC>/<++><CR>"_c4l
@@ -70,8 +67,6 @@ map <F7> :w!<CR>:!git<Space>add<Space>%<CR><CR>
 map <F8> :!git<Space>commit<Space>-m<Space>""<Left>
 
 "latex commands"
-"open kicad to the commnad"
-autocmd Filetype tex map <C-c> :!kicad<CR>
 "F4 to save
 autocmd Filetype tex inoremap <F4> <ESC>:w<CR>A
 autocmd Filetype tex nnoremap <F4> :w<CR>

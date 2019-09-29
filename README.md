@@ -112,13 +112,13 @@ Those are not complete.
 	>
 	> ;s section.
 	>
-	> ;-s subsection.
+	> ;\-s subsection.
 	>
-	> ;_s subsubsection.
+	> ;\_s subsubsection.
 	>
-	> ;+e equation array.
+	> ;\+e equation array.
 	>
-	> ;# enumerate list.
+	> ;\# enumerate list.
 	>
 	> ;l list.
 
@@ -126,23 +126,23 @@ Those are not complete.
 
 	> // fraction command.
 	>
-	> .I definite integral.
+	> \.I definite integral.
 	>
-	> .i normal integral.
+	> \.i normal integral.
 	>
-	> .l limit.
+	> \.l limit.
 	>
-	> .[ left and right square brackets.
+	> \.\[ left and right square brackets.
 	>
-	> .{ left and right curly brackets.
+	> \.\{ left and right curly brackets.
 	>
-	> .( left and right round brackets.
+	> \.\( left and right round brackets.
 	>
-	> .oo infinity symbol.
+	> \.oo infinity symbol.
 	>
-	> ./ fraction[¹].
+	> \./ fraction[¹].
 	>
-	> .< angles.
+	> \.< angles.
 
 
 * Python shortcuts.

@@ -149,3 +149,8 @@ Those are not complete.
 * Python shortcuts.
 
 	> F5 saves the current file and compile it.
+
+
+#To do list.
+
+- [ ] make a real to do list.

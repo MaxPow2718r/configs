@@ -140,7 +140,7 @@ Those are not complete.
 	>
 	> \.oo infinity symbol.
 	>
-	> \./ fraction[^1].
+	> \./ fraction.[^1]
 	>
 	> \.< angles.
 

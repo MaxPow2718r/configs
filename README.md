@@ -155,4 +155,4 @@ Those are not complete.
 - [ ] make a real to do list.
 
 
-[¹]: this one allows you to type the numerator in curly brackets then just press ./ and generate the fraction command.
+[¹]: this one allows you to type the numerator in curly brackets then just press \./ and generate the fraction command.

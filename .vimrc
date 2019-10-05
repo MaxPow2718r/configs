@@ -108,6 +108,7 @@ autocmd Filetype tex inoremap .( \left(<()><Space>\right)<Space><++><ESC>?<()><C
 autocmd Filetype tex inoremap .oo \infty<Space>
 autocmd Filetype tex inoremap ./ <ESC>%i\frac<ESC>%a{}<ESC>i
 autocmd Filetype tex inoremap .< \langle<Space><()><Space>\rangle<Space><++><ESC>?<()><CR>"_c4l
+autocmd Filetype tex inoremap => \implies<Space>
 
 "python commands"
 "compile python"

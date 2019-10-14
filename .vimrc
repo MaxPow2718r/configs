@@ -11,15 +11,16 @@ set conceallevel=1
 let g:tex_conceal='abdmg'
 let g:vimtex_latexmk_continouos = 1
 
+Plug 'sophacles/vim-processing'
 call plug#end()
 
-let mapleader = ","
+let mapleader = "<Ctrl>"
 set nocompatible
 syntax enable
 filetype plugin on
 
 "enable spell-check with Ctrl-O"
-map <F2> : setlocal spell!<CR>
+map <F2> <ESC>:setlocal spell!<CR>
 set spelllang=es
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 

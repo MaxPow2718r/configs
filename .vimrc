@@ -14,7 +14,6 @@ let g:vimtex_latexmk_continouos = 1
 Plug 'sophacles/vim-processing'
 call plug#end()
 
-let mapleader = "<Ctrl>"
 set nocompatible
 syntax enable
 filetype plugin on
@@ -75,12 +74,12 @@ autocmd Filetype tex map <F4> :w<CR>
 
 "snippets
 "templates
-autocmd Filetype tex inoremap <Leader>i <ESC>:read ~/.LaTeX_Templates/IEEE_Template<CR>kdd
-autocmd Filetype tex inoremap <Leader>r <ESC>:read ~/.LaTeX_Templates/Report_Template<CR>kdd
-autocmd Filetype tex inoremap <Leader>n <ESC>:read ~/.LaTeX_Templates/Notes_Template<CR>kdd
-autocmd Filetype tex inoremap <Leader>s <ESC>a<()><ESC>/<\|++\|><CR>o<ESC>:read<Space>~/.LaTeX_Templates/Packages/SVG<CR>/<(>)<CR>"_c9l
-autocmd Filetype tex inoremap <Leader>c <ESC>a<()><ESC>/<\|++\|><CR>o<ESC>:read<Space>~/.LaTeX_Templates/Packages/Circuits<CR>/<(>)<CR>"_c9l
-autocmd Filetype tex inoremap <Leader>g <ESC>a<()><ESC>/<\|++\|><CR>o<ESC>:read<Space>~/.LaTeX_Templates/Packages/Graphics<CR>/<(>)<CR>"_c9l
+autocmd Filetype tex nnoremap ,i <ESC>:read ~/.LaTeX_Templates/IEEE_Template<CR>kdd
+autocmd Filetype tex nnoremap ,r <ESC>:read ~/.LaTeX_Templates/Report_Template<CR>kdd
+autocmd Filetype tex nnoremap ,n <ESC>:read ~/.LaTeX_Templates/Notes_Template<CR>kdd
+autocmd Filetype tex nnoremap ,s <ESC>a<()><ESC>/<\|++\|><CR>o<ESC>:read<Space>~/.LaTeX_Templates/Packages/SVG<CR>/<()><CR>"_c4l
+autocmd Filetype tex nnoremap ,c <ESC>a<()><ESC>/<\|++\|><CR>o<ESC>:read<Space>~/.LaTeX_Templates/Packages/Circuits<CR>/<()><CR>"_c4l
+autocmd Filetype tex nnoremap ,g <ESC>a<()><ESC>/<\|++\|><CR>o<ESC>:read<Space>~/.LaTeX_Templates/Packages/Graphics<CR>/<()><CR>"_c4l
 
 "text snippets (use ;)
 autocmd Filetype tex inoremap "" ``''<Space><++><ESC>6hi
@@ -98,6 +97,9 @@ autocmd Filetype tex inoremap ;_s \subsubsection{<()>}<CR><CR><++><ESC>?<()><CR>
 autocmd Filetype tex inoremap ;+e \begin{eqnarray}<CR><()><CR>\end{eqnarray}<CR><CR><++><ESC>?<()><CR>"_c4l
 autocmd Filetype tex inoremap ;# \begin{enumerate}<CR>\item<Space><()><CR>\end{enumerate}<CR><CR><++><ESC>?<()><CR>"_c4l
 autocmd Filetype tex inoremap ;l \begin{itemize}<CR>\item<Space><()><CR>\end{itemize}<CR><CR><++><ESC>?<()><CR>"_c4l
+autocmd Filetype tex inoremap ;f \begin{figure}<CR>\centering<CR>\includegraphics[width=0.8\textwidth]{<()>}<CR>\caption{<++>}<CR>\label{<++>}<CR>\end{figure}<CR><CR><++><ESC>?<()><CR>"_c4l
+autocmd Filetype tex inoremap ;c \begin{figure}<CR>\centering<CR>\begin{circuitikz}<CR>\draw<CR><()><CR>;\end{circuitikz}<CR>\caption{<++>}<CR>\label{<++>}<CR>\end{figure}<CR><CR><++><ESC>?<()><CR>"_c4l
+
 "math snippets (use .)
 autocmd Filetype tex inoremap // \frac{<()>}{<++>}<Space><++><ESC>?<()><CR>"_c4l
 autocmd Filetype tex inoremap .I \int_{<()>}^{<++>}<++>\mathrm{d}<++><ESC>?<()><CR>"_c4l
@@ -110,6 +112,7 @@ autocmd Filetype tex inoremap .oo \infty<Space>
 autocmd Filetype tex inoremap ./ <ESC>%i\frac<ESC>%a{}<ESC>i
 autocmd Filetype tex inoremap .< \langle<Space><()><Space>\rangle<Space><++><ESC>?<()><CR>"_c4l
 autocmd Filetype tex inoremap => \implies<Space>
+autocmd Filetype tex inoremap .s \sum_{<()>}^{<++>}<++><ESC>?<()><CR>"_c4l
 
 "python commands"
 "compile python"

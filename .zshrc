@@ -1,8 +1,9 @@
 # Set up the prompt
 
+# Enable colors and change prompt:
 autoload -Uz promptinit
 promptinit
-prompt adam1
+PROMPT='<%B%F{blue}%n%f%b@%B%F{green}%m%f%b %F%f%#%F{blue}%B%~%b%f>'
 
 setopt histignorealldups sharehistory
 

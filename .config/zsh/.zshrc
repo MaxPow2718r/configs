@@ -4,22 +4,31 @@
 autoload -Uz colors  && colors
 autoload -Uz promptinit
 promptinit
-PROMPT='%B%F{160}<%n%f%F{227}%b@%B%f%F{040}%m%f %F{020}%#%~%B>%b%f '
+PROMPT='%B%F{160}<%n%f%F{227}%b@%B%f%F{040}%m%f %F{020}%#%c%B>%b%f '
+RPROMPT='${vcs_info_msg_0_}'
 
 setopt histignorealldups sharehistory
-
-# Use vi keys
-bindkey -v
-export KEYTIMEOUT=1
-
 # Keep 10000 lines of history within the shell
 HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.cache/zsh/zsh_history
 
+# Use vi keys
+bindkey -v
+export KEYTIMEOUT=1
+
 # Use modern completion system
 autoload -Uz compinit
 compinit
+
+# Git on prompt
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' enable git svn
+precmd() {
+		vcs_info
+}
+setopt prompt_subst
+zstyle ':vcs_info:git*' formats "[%b]"
 
 zstyle ':completion:*' auto-description 'specify: %d'
 zstyle ':completion:*' completer _expand _complete _correct _approximate
@@ -37,3 +46,4 @@ zstyle ':completion:*' verbose true
 # Aliases
 alias ls='ls --color=auto'
 alias la='ls -a --color=auto'
+alias status='git status'
